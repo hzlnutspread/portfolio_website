@@ -68,19 +68,24 @@ export default function Home() {
             </div>
 
             <div className="flex justify-center gap-16 py-3 text-5xl text-gray-600 dark:text-gray-300 md:text-6xl">
-              <a href="https://github.com/hzlnutspread" target="_blank">
+              <a
+                href="https://github.com/hzlnutspread"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <AiFillGithub />
               </a>
               <a
                 href="https://www.linkedin.com/in/ken-smith-62a69924b/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <AiFillLinkedin />
               </a>
             </div>
 
             <div className="relative mx-auto mt-20 h-80 w-80 overflow-hidden rounded-full bg-gradient-to-b from-purple-500 md:h-96 md:w-96">
-              <Image src={deved} layout="fill" objectFit="cover" />
+              <Image src={deved} layout="fill" objectFit="cover" alt="" />
             </div>
           </section>
         </section>
@@ -99,15 +104,15 @@ export default function Home() {
               for coding and spend most of my free time honing my craft.
             </p>
             <p className="text-medium text-gray-8 pb-5 leading-6 text-gray-800 dark:text-gray-300 md:text-xl">
-              I'm from New Zealand and do Brazilian Jiu jitsu in my spare time.
-              I am also heavily involved in the Futureverse NFT community.
+              Im from New Zealand and do Brazilian Jiu jitsu in my spare time. I
+              am also heavily involved in the Futureverse NFT community.
             </p>
           </div>
 
           {/* Card section */}
           <div className="gap-10 dark:text-gray-300 lg:flex">
             <div className="my-10 rounded-xl p-10 text-center shadow-lg lg:flex-1">
-              <Image src={design} width={100} height={100} />
+              <Image src={design} width={100} height={100} alt="" />
               <h3 className="pt-8 pb-2 text-lg font-medium">
                 Beautiful designs
               </h3>
@@ -122,7 +127,7 @@ export default function Home() {
             </div>
 
             <div className="my-10 rounded-xl p-10 text-center shadow-lg lg:flex-1">
-              <Image src={code} width={100} height={100} />
+              <Image src={code} width={100} height={100} alt="" />
               <h3 className="pt-8 pb-2 text-lg font-medium">Reliable code</h3>
               <p className="py-2 ">
                 I can write code that is of a high standard and is accessible
@@ -135,7 +140,7 @@ export default function Home() {
             </div>
 
             <div className="my-10 rounded-xl p-10 text-center shadow-lg lg:flex-1">
-              <Image src={consulting} width={100} height={100} />
+              <Image src={consulting} width={100} height={100} alt="" />
               <h3 className="pt-8 pb-2 text-lg font-medium">
                 Guaranteed follow-ups
               </h3>
@@ -167,6 +172,7 @@ export default function Home() {
               <a
                 href="https://stupendous-bienenstitch-0c2c81.netlify.app/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <Image
                   src={web1}
@@ -174,6 +180,7 @@ export default function Home() {
                   width={"100%"}
                   height={"100%"}
                   layout="responsive"
+                  alt=""
                 />
               </a>
             </div>
@@ -181,6 +188,7 @@ export default function Home() {
               <a
                 href="https://beamish-heliotrope-d8d5f2.netlify.app/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <Image
                   src={web4}
@@ -188,6 +196,7 @@ export default function Home() {
                   width={"100%"}
                   height={"100%"}
                   layout="responsive"
+                  alt=""
                 />
               </a>
             </div>
@@ -195,6 +204,7 @@ export default function Home() {
               <a
                 href="https://euphonious-marshmallow-35fb74.netlify.app/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <Image
                   src={web3}
@@ -202,6 +212,7 @@ export default function Home() {
                   width={"100%"}
                   height={"100%"}
                   layout="responsive"
+                  alt=""
                 />
               </a>
             </div>
@@ -209,6 +220,7 @@ export default function Home() {
               <a
                 href="https://fabulous-druid-21158e.netlify.app/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <Image
                   src={web2}
@@ -216,6 +228,7 @@ export default function Home() {
                   width={"100%"}
                   height={"100%"}
                   layout="responsive"
+                  alt=""
                 />
               </a>
             </div>
@@ -224,6 +237,7 @@ export default function Home() {
               <a
                 href="https://fabulous-druid-21158e.netlify.app/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <Image
                   src={web1}
@@ -231,6 +245,7 @@ export default function Home() {
                   width={"100%"}
                   height={"100%"}
                   layout="responsive"
+                  alt=""
                 />
               </a>
             </div>
@@ -244,7 +259,7 @@ export default function Home() {
             <span className="text-purple-500">
               <Link href="/about">here</Link>
             </span>{" "}
-            if you're interested in seeing my NFT collection!
+            if youre interested in seeing my NFT collection!
           </h3>
         </section>
       </main>

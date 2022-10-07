@@ -17,7 +17,7 @@ const Navbar = ({ currMode, setMode }) => {
               }
               setMode(!currMode);
             }}
-            className="cursor-pointer text-xl dark:text-white"
+            className="cursor-pointer text-xl text-black transition duration-300 ease-in-out dark:text-white"
           />
         </li>
         <li className="ml-8	">

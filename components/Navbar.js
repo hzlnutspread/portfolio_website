@@ -10,18 +10,19 @@ const Navbar = ({ currMode, setMode }) => {
         <li className="pr-2 transition duration-300 ease-in-out hover:scale-150">
           <BsFillMoonStarsFill
             onClick={() => {
-              console.log(currMode);
+              if (currMode === false) {
+                console.log("toggled dark mode On");
+              } else {
+                console.log("toggled dark mode off");
+              }
               setMode(!currMode);
-              console.log(currMode);
             }}
             className="cursor-pointer text-xl dark:text-white"
           />
         </li>
         <li className="ml-8	">
           <button className="rounded-md bg-gradient-to-r from-purple-400 to-blue-500 px-4 py-2 text-black transition duration-300 ease-in-out hover:scale-110 dark:text-white">
-            <a href="#" className="">
-              Resume
-            </a>
+            <a href="#">Resume</a>
           </button>
         </li>
       </ul>

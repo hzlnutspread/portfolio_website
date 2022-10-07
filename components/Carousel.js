@@ -4,7 +4,7 @@ import web2 from "../public/web2.JPG";
 import web3 from "../public/web3.JPG";
 import web4 from "../public/web4.JPG";
 
-const Portfolio = () => {
+const Carousel = () => {
   return (
     <section className="px-10 py-20 md:px-20 lg:px-40">
       <div className="text-center">
@@ -103,4 +103,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Carousel;

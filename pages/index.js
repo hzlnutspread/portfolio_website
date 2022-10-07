@@ -1,14 +1,19 @@
 import Head from "next/head";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Navbar from "../components/Navbar";
 import FrontPage from "../components/FrontPage";
 import AboutMe from "../components/AboutMe";
 import Cards from "../components/Cards";
 import Portfolio from "../components/Portfolio";
 import Footer from "../components/Footer";
+import Carousel from "../components/Carousel";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, []);
 
   return (
     <div className={darkMode ? "dark" : ""}>
@@ -18,7 +23,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico"></link>
       </Head>
 
-      <main className="bg-white text-center font-burtons dark:bg-gray-900">
+      <main className="font-burtons bg-white font-roboto dark:bg-gray-900">
         <section className="min-h-screen">
           <Navbar currMode={darkMode} setMode={setDarkMode} />
           <FrontPage />
@@ -30,6 +35,7 @@ export default function Home() {
         </section>
 
         <Portfolio />
+        <Carousel />
         <Footer />
       </main>
     </div>

@@ -1,6 +1,6 @@
 const AboutMe = () => {
   return (
-    <div>
+    <div className="mx-auto text-center">
       <h3 className="py-1 text-3xl dark:text-white">Some stuff about me</h3>
       <p className="text-medium text-gray-8 py-5 leading-6 text-gray-800 dark:text-gray-300 md:text-xl">
         I am a <span className="text-purple-500">self taught </span>

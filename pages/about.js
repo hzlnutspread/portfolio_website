@@ -9,7 +9,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico"></link>
       </Head>
 
-      <div>SYKE GET REKT NOOB</div>
+      <div>WIP</div>
     </div>
   );
 }

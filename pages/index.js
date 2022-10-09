@@ -35,7 +35,7 @@ export default function Home() {
         </section>
 
         <Portfolio />
-        <Carousel />
+
         <Footer />
       </main>
     </div>

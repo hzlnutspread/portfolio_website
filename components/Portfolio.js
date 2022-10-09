@@ -17,7 +17,7 @@ const Portfolio = () => {
 
       {/* portfolio examples */}
       <div className="flex flex-col justify-center gap-10 py-10 lg:flex-row lg:flex-wrap">
-        <div className="max-w-4xl flex-1 basis-1/3 overflow-hidden rounded-lg shadow-2xl">
+        <div className="max-w-4xl flex-1 basis-1/3 overflow-hidden rounded-lg shadow-2xl dark:shadow-lg dark:shadow-white/20">
           <a
             href="https://stupendous-bienenstitch-0c2c81.netlify.app/"
             target="_blank"
@@ -33,7 +33,7 @@ const Portfolio = () => {
             />
           </a>
         </div>
-        <div className="max-w-4xl flex-1 basis-1/3 overflow-hidden rounded-lg shadow-2xl">
+        <div className="max-w-4xl flex-1 basis-1/3 overflow-hidden rounded-lg shadow-2xl dark:shadow-lg dark:shadow-white/20">
           <a
             href="https://beamish-heliotrope-d8d5f2.netlify.app/"
             target="_blank"
@@ -49,7 +49,7 @@ const Portfolio = () => {
             />
           </a>
         </div>
-        <div className="max-w-4xl flex-1 basis-1/3 overflow-hidden rounded-lg shadow-2xl">
+        <div className="max-w-4xl flex-1 basis-1/3 overflow-hidden rounded-lg shadow-2xl dark:shadow-lg dark:shadow-white/20">
           <a
             href="https://euphonious-marshmallow-35fb74.netlify.app/"
             target="_blank"
@@ -65,7 +65,7 @@ const Portfolio = () => {
             />
           </a>
         </div>
-        <div className="max-w-4xl flex-1 basis-1/3 overflow-hidden rounded-lg shadow-2xl">
+        <div className="max-w-4xl flex-1 basis-1/3 overflow-hidden rounded-lg shadow-2xl dark:shadow-lg dark:shadow-white/20">
           <a
             href="https://fabulous-druid-21158e.netlify.app/"
             target="_blank"
@@ -82,7 +82,7 @@ const Portfolio = () => {
           </a>
         </div>
 
-        <div className="max-w-4xl flex-1 basis-1/3 overflow-hidden rounded-lg shadow-2xl">
+        <div className="max-w-4xl flex-1 basis-1/3 overflow-hidden rounded-lg shadow-2xl dark:shadow-lg dark:shadow-white/20">
           <a
             href="https://fabulous-druid-21158e.netlify.app/"
             target="_blank"

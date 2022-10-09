@@ -6,7 +6,7 @@ import consulting from "../public/consulting.png";
 const Cards = () => {
   return (
     <div className="gap-10 dark:text-gray-300 lg:flex">
-      <div className="my-10 rounded-xl p-10 text-center shadow-lg lg:flex-1">
+      <div className="my-10 rounded-xl p-10 text-center shadow-lg dark:shadow-white/30 lg:flex-1">
         <Image src={design} width={100} height={100} alt="" />
         <h3 className="pt-8 pb-2 text-lg font-medium">Beautiful designs</h3>
         <p className="py-2 ">
@@ -19,7 +19,7 @@ const Cards = () => {
         <p className="text-gray-800 dark:text-gray-300">Figma</p>
       </div>
 
-      <div className="my-10 rounded-xl p-10 text-center shadow-lg lg:flex-1">
+      <div className="my-10 rounded-xl p-10 text-center shadow-lg dark:shadow-white/30 lg:flex-1">
         <Image src={code} width={100} height={100} alt="" />
         <h3 className="pt-8 pb-2 text-lg font-medium">Reliable code</h3>
         <p className="py-2 ">
@@ -32,7 +32,7 @@ const Cards = () => {
         <p className="text-gray-800 dark:text-gray-300">Javascript</p>
       </div>
 
-      <div className="my-10 rounded-xl p-10 text-center shadow-lg lg:flex-1">
+      <div className="my-10 rounded-xl p-10 text-center shadow-lg dark:shadow-white/30 lg:flex-1">
         <Image src={consulting} width={100} height={100} alt="" />
         <h3 className="pt-8 pb-2 text-lg font-medium">Guaranteed follow-ups</h3>
         <p className="py-2 ">

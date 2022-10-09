@@ -6,7 +6,7 @@ const FrontPage = () => {
   return (
     <section className="px-10 md:px-20 lg:px-40">
       <div className="p-8 text-center">
-        <h2 className="dark:purple-500 py-2 text-5xl font-medium text-purple-500 md:text-6xl">
+        <h2 className="py-2 text-5xl font-medium text-black dark:text-white md:text-6xl">
           Ken Smith
         </h2>
         <h3 className="py-2 text-2xl dark:text-gray-300 md:text-3xl">

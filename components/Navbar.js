@@ -22,7 +22,7 @@ const Navbar = ({ currMode, setMode }) => {
         </li>
         <li className="ml-8	">
           <button className="rounded-md bg-gradient-to-r from-purple-400 to-blue-500 px-4 py-2 text-black transition duration-300 ease-in-out hover:scale-110 dark:text-white">
-            <a href="#">Resume</a>
+            <a href="#">Resumé</a>
           </button>
         </li>
       </ul>

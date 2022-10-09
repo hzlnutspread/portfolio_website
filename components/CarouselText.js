@@ -1,6 +1,14 @@
 import Image from "next/image";
 import img1 from "../public/unsplash_1.jpg";
 import img2 from "../public/unsplash_2.jpg";
+import img3 from "../public/unsplash_3.jpg";
+import img4 from "../public/unsplash_4.jpg";
+import img5 from "../public/unsplash_5.jpg";
+import img6 from "../public/unsplash_6.jpg";
+import img7 from "../public/unsplash_7.jpg";
+import img8 from "../public/unsplash_8.jpg";
+import img9 from "../public/unsplash_9.jpg";
+import img10 from "../public/unsplash_10.jpg";
 
 const CarouselText = () => {
   return (
@@ -33,7 +41,7 @@ const CarouselText = () => {
               <Image
                 width={300}
                 height={440}
-                src="/unsplash_3.jpg"
+                src={img3}
                 alt=""
                 className="image-class min-h-[100%] min-w-[100%] object-cover"
               />
@@ -42,7 +50,7 @@ const CarouselText = () => {
               <Image
                 width={300}
                 height={440}
-                src="/unsplash_4.jpg"
+                src={img4}
                 alt=""
                 className="image-class min-h-[100%] min-w-[100%] object-cover"
               />
@@ -51,7 +59,7 @@ const CarouselText = () => {
               <Image
                 width={300}
                 height={440}
-                src="/unsplash_5.jpg"
+                src={img5}
                 alt=""
                 className="image-class min-h-[100%] min-w-[100%] object-cover"
               />
@@ -65,7 +73,7 @@ const CarouselText = () => {
               <Image
                 width={300}
                 height={440}
-                src="/unsplash_6.jpg"
+                src={img6}
                 alt=""
                 className="image-class min-h-[100%] min-w-[100%] object-cover"
               />
@@ -74,7 +82,7 @@ const CarouselText = () => {
               <Image
                 width={300}
                 height={440}
-                src="/unsplash_7.jpg"
+                src={img7}
                 alt=""
                 className="image-class min-h-[100%] min-w-[100%] object-cover"
               />
@@ -83,7 +91,7 @@ const CarouselText = () => {
               <Image
                 width={300}
                 height={440}
-                src="/unsplash_8.jpg"
+                src={img8}
                 alt=""
                 className="image-class min-h-[100%] min-w-[100%] object-cover"
               />
@@ -92,7 +100,7 @@ const CarouselText = () => {
               <Image
                 width={300}
                 height={440}
-                src="/unsplash_9.jpg"
+                src={img9}
                 alt=""
                 className="image-class min-h-[100%] min-w-[100%] object-cover"
               />
@@ -101,7 +109,7 @@ const CarouselText = () => {
               <Image
                 width={300}
                 height={440}
-                src="/unsplash_10.jpg"
+                src={img10}
                 alt=""
                 className="image-class min-h-[100%] min-w-[100%] object-cover"
               />

@@ -10,7 +10,7 @@ const Footer = () => {
           <span className="text-purple-500 ">
             <Link href="/about">here</Link>
           </span>{" "}
-          if youre interested in seeing my NFT collection!
+          if you are interested in seeing my NFT collection!
         </h3>
         <ToTopOfPageButton />
       </section>

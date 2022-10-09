@@ -6,7 +6,6 @@ import AboutMe from "../components/AboutMe";
 import Cards from "../components/Cards";
 import Portfolio from "../components/Portfolio";
 import Footer from "../components/Footer";
-import Carousel from "../components/Carousel";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -23,7 +22,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico"></link>
       </Head>
 
-      <main className="font-burtons bg-white font-roboto dark:bg-gray-900">
+      <main className="bg-white dark:bg-gray-900">
         <section className="min-h-screen">
           <Navbar currMode={darkMode} setMode={setDarkMode} />
           <FrontPage />

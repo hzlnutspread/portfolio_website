@@ -1,4 +1,6 @@
 import Image from "next/image";
+import img1 from "../public/unsplash_1.jpg";
+import img2 from "../public/unsplash_2.jpg";
 
 const CarouselText = () => {
   return (
@@ -13,7 +15,7 @@ const CarouselText = () => {
               <Image
                 width={300}
                 height={440}
-                src="/unsplash_1.jpg"
+                src={img1}
                 alt=""
                 className="image-class min-h-[100%] min-w-[100%] object-cover"
               />
@@ -22,7 +24,7 @@ const CarouselText = () => {
               <Image
                 width={300}
                 height={440}
-                src="/unsplash_2.jpg"
+                src={img2}
                 alt=""
                 className="image-class min-h-[100%] min-w-[100%] object-cover"
               />

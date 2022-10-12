@@ -10,7 +10,7 @@ class LoopingElement {
     this.lerp = {
       current: this.currentTranslation,
       target: this.currentTranslation,
-      ease: 0.1,
+      ease: 0.2,
     };
 
     this.events();
@@ -66,5 +66,5 @@ class LoopingElement {
 
 let imagesElements = document.querySelectorAll("#images-wrapper");
 
-let newLol = new LoopingElement(imagesElements[0], 0, 0.02);
-let highLol = new LoopingElement(imagesElements[1], -100, 0.02);
+let newLol = new LoopingElement(imagesElements[0], 0, 0.03);
+let highLol = new LoopingElement(imagesElements[1], -100, 0.03);

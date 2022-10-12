@@ -1,119 +1,99 @@
 import Image from "next/image";
-import img1 from "../public/unsplash_1.jpg";
-import img2 from "../public/unsplash_2.jpg";
-import img3 from "../public/unsplash_3.jpg";
-import img4 from "../public/unsplash_4.jpg";
-import img5 from "../public/unsplash_5.jpg";
-import img6 from "../public/unsplash_6.jpg";
-import img7 from "../public/unsplash_7.jpg";
 import img8 from "../public/unsplash_8.jpg";
-import img9 from "../public/unsplash_9.jpg";
-import img10 from "../public/unsplash_10.jpg";
+import web1 from "../public/web1.jpg";
+import web2 from "../public/web2.jpg";
+import web3 from "../public/web3.jpg";
+import web4 from "../public/web4.jpg";
+import web5 from "../public/web5.jpg";
+import github from "../public/github.jpg";
 
 const CarouselText = () => {
   return (
     <div className="mt-6 rounded-xl bg-gray-200 px-10 shadow-xl dark:bg-gray-800 dark:shadow-white/30">
-      <section className="image-section relative flex min-h-[65vh] overflow-hidden">
+      <section className="image-section relative flex min-h-[55vh] overflow-hidden">
         <div className="second-loop-container flex w-full flex-row items-center justify-center">
           <div
             id="images-wrapper"
             className="absolute flex flex-row gap-8 pr-8"
           >
-            <div className="image-container flex h-[440px] w-[300px] items-center justify-center overflow-hidden">
-              <Image
-                width={300}
-                height={440}
-                src={img1}
-                alt=""
-                className="image-class min-h-[100%] min-w-[100%] object-cover"
-              />
-            </div>
-            <div className="image-container flex h-[440px] w-[300px] items-center justify-center overflow-hidden">
-              <Image
-                width={300}
-                height={440}
-                src={img2}
-                alt=""
-                className="image-class min-h-[100%] min-w-[100%] object-cover"
-              />
-            </div>
-            <div className="image-container flex h-[440px] w-[300px] items-center justify-center overflow-hidden">
-              <Image
-                width={300}
-                height={440}
-                src={img3}
-                alt=""
-                className="image-class min-h-[100%] min-w-[100%] object-cover"
-              />
-            </div>
-            <div className="image-container flex h-[440px] w-[300px] items-center justify-center overflow-hidden">
-              <Image
-                width={300}
-                height={440}
-                src={img4}
-                alt=""
-                className="image-class min-h-[100%] min-w-[100%] object-cover"
-              />
-            </div>
-            <div className="image-container flex h-[440px] w-[300px] items-center justify-center overflow-hidden">
-              <Image
-                width={300}
-                height={440}
-                src={img5}
-                alt=""
-                className="image-class min-h-[100%] min-w-[100%] object-cover"
-              />
-            </div>
+            <a href="https://websitepractice1.netlify.app/" target="_blank">
+              <div className="image-container flex h-[400px] w-[400px] cursor-pointer items-center justify-center overflow-hidden rounded-lg border-4 border-double border-black transition duration-150 hover:scale-110 dark:border-purple-600">
+                <Image
+                  width={400}
+                  height={400}
+                  src={web1}
+                  alt=""
+                  className="image-class min-h-[100%] min-w-[100%]  object-cover"
+                />
+              </div>
+            </a>
+            <a href="https://websitepractice2.netlify.app/" target="_blank">
+              <div className="image-container flex h-[400px] w-[400px] cursor-pointer items-center justify-center overflow-hidden rounded-lg border-4 border-double border-black transition duration-150 hover:scale-110 dark:border-purple-600">
+                <Image
+                  width={400}
+                  height={400}
+                  src={web2}
+                  alt=""
+                  className="image-class min-h-[100%] min-w-[100%]  object-cover"
+                />
+              </div>
+            </a>
+            <a href="https://websitepractice3.netlify.app/" target="_blank">
+              <div className="image-container flex h-[400px] w-[400px] cursor-pointer items-center justify-center overflow-hidden rounded-lg border-4 border-double border-black transition duration-150 hover:scale-110 dark:border-purple-600">
+                <Image
+                  width={400}
+                  height={400}
+                  src={web3}
+                  alt=""
+                  className="image-class min-h-[100%] min-w-[100%]  object-cover"
+                />
+              </div>
+            </a>
           </div>
+
           <div
             id="images-wrapper"
             className="absolute flex flex-row gap-8 pr-8"
           >
-            <div className="image-container flex h-[440px] w-[300px] items-center justify-center overflow-hidden">
-              <Image
-                width={300}
-                height={440}
-                src={img6}
-                alt=""
-                className="image-class min-h-[100%] min-w-[100%] object-cover"
-              />
-            </div>
-            <div className="image-container flex h-[440px] w-[300px] items-center justify-center overflow-hidden">
-              <Image
-                width={300}
-                height={440}
-                src={img7}
-                alt=""
-                className="image-class min-h-[100%] min-w-[100%] object-cover"
-              />
-            </div>
-            <div className="image-container flex h-[440px] w-[300px] items-center justify-center overflow-hidden">
-              <Image
-                width={300}
-                height={440}
-                src={img8}
-                alt=""
-                className="image-class min-h-[100%] min-w-[100%] object-cover"
-              />
-            </div>
-            <div className="image-container flex h-[440px] w-[300px] items-center justify-center overflow-hidden">
-              <Image
-                width={300}
-                height={440}
-                src={img9}
-                alt=""
-                className="image-class min-h-[100%] min-w-[100%] object-cover"
-              />
-            </div>
-            <div className="image-container flex h-[440px] w-[300px] items-center justify-center overflow-hidden">
-              <Image
-                width={300}
-                height={440}
-                src={img10}
-                alt=""
-                className="image-class min-h-[100%] min-w-[100%] object-cover"
-              />
-            </div>
+            <a href="https://websitepractice4.netlify.app/" target="_blank">
+              <div className="image-container flex h-[400px] w-[400px] cursor-pointer items-center justify-center overflow-hidden rounded-lg border-4 border-double border-black transition duration-150 hover:scale-110 dark:border-purple-600">
+                <Image
+                  width={400}
+                  height={400}
+                  src={web4}
+                  alt=""
+                  className="image-class min-h-[100%] min-w-[100%]  object-cover"
+                />
+              </div>
+            </a>
+            <a
+              href="https://cornonthecobcollection.netlify.app/"
+              target="_blank"
+            >
+              <div className="image-container flex h-[400px] w-[400px] cursor-pointer items-center justify-center overflow-hidden rounded-lg border-4 border-double border-black transition duration-150 hover:scale-110 dark:border-purple-600">
+                <Image
+                  width={400}
+                  height={400}
+                  src={web5}
+                  alt=""
+                  className="image-class min-h-[100%] min-w-[100%]  object-cover"
+                />
+              </div>
+            </a>
+            <a
+              href="https://github.com/hzlnutspread?tab=repositories"
+              target="_blank"
+            >
+              <div className="image-container flex h-[400px] w-[400px] cursor-pointer items-center justify-center overflow-hidden rounded-lg border-4 border-double border-black transition duration-150 hover:scale-110 dark:border-purple-600">
+                <Image
+                  width={400}
+                  height={400}
+                  src={github}
+                  alt=""
+                  className="image-class min-h-[100%] min-w-[100%]  object-cover"
+                />
+              </div>
+            </a>
           </div>
         </div>
       </section>

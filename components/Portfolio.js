@@ -12,8 +12,7 @@ const Portfolio = () => {
       <div className="text-center">
         <h3 className="py-1 text-3xl dark:text-white">Portfolio</h3>
         <p className="text-medium text-gray-8 py-5 leading-6 text-gray-800 dark:text-gray-300 md:text-xl">
-          Below you can find examples of my works and websites - including the
-          practice ones
+          Below you can find links to my work and websites
         </p>
       </div>
 

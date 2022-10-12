@@ -6,11 +6,15 @@ const Footer = () => {
     <>
       <section className=" h-42 relative flex flex-col items-center justify-center bg-black bg-opacity-10 p-6 text-center text-black dark:bg-white dark:bg-opacity-10 dark:text-white md:flex-row md:p-10 lg:px-20">
         <h3 className="text-md md:text-xl">
-          Click{" "}
-          <span className="text-purple-500 ">
-            <Link href="/about">here</Link>
-          </span>{" "}
-          if you are interested in seeing my NFT collection!
+          <p>
+            Click{" "}
+            <span className="font-bold text-purple-500">
+              <Link href="https://cornonthecobcollection.netlify.app/">
+                here
+              </Link>
+            </span>{" "}
+            if you would like to check out my NFT collection
+          </p>
         </h3>
         <ToTopOfPageButton />
       </section>

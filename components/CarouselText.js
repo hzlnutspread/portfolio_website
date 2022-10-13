@@ -9,39 +9,51 @@ import github from "../public/github.JPG";
 const CarouselText = () => {
   return (
     <div className="mt-6 rounded-xl bg-gray-200 px-10 shadow-xl dark:bg-gray-800 dark:shadow-white/30">
-      <section className="image-section relative flex min-h-[55vh] overflow-hidden">
+      <section className="image-section relative flex h-[60vh] overflow-hidden">
         <div className="second-loop-container flex w-full flex-row items-center justify-center">
           <div
             id="images-wrapper"
-            className="absolute flex flex-row gap-8 pr-8"
+            className="absolute flex flex-row gap-8 py-4 pr-8"
           >
-            <a href="https://websitepractice1.netlify.app/" target="_blank" rel="noreferrer">
-              <div className="image-container flex h-[400px] w-[400px] cursor-pointer items-center justify-center overflow-hidden rounded-lg border-4 border-double border-black transition duration-150 hover:scale-110 dark:border-purple-600">
+            <a
+              href="https://websitepractice1.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="image-container flex h-[350px] w-[350px] cursor-pointer items-center justify-center overflow-hidden rounded-lg border-4 border-double border-black py-2 transition duration-150 hover:scale-110 dark:border-purple-600">
                 <Image
-                  width={400}
-                  height={400}
+                  width={350}
+                  height={350}
                   src={web1}
                   alt=""
                   className="image-class min-h-[100%] min-w-[100%]  object-cover"
                 />
               </div>
             </a>
-            <a href="https://websitepractice2.netlify.app/" target="_blank" rel="noreferrer">
-              <div className="image-container flex h-[400px] w-[400px] cursor-pointer items-center justify-center overflow-hidden rounded-lg border-4 border-double border-black transition duration-150 hover:scale-110 dark:border-purple-600">
+            <a
+              href="https://websitepractice2.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="image-container flex h-[350px] w-[350px] cursor-pointer items-center justify-center overflow-hidden rounded-lg border-4 border-double border-black transition duration-150 hover:scale-110 dark:border-purple-600">
                 <Image
-                  width={400}
-                  height={400}
+                  width={350}
+                  height={350}
                   src={web2}
                   alt=""
                   className="image-class min-h-[100%] min-w-[100%]  object-cover"
                 />
               </div>
             </a>
-            <a href="https://websitepractice3.netlify.app/" target="_blank" rel="noreferrer">
-              <div className="image-container flex h-[400px] w-[400px] cursor-pointer items-center justify-center overflow-hidden rounded-lg border-4 border-double border-black transition duration-150 hover:scale-110 dark:border-purple-600">
+            <a
+              href="https://websitepractice3.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="image-container flex h-[350px] w-[350px] cursor-pointer items-center justify-center overflow-hidden rounded-lg border-4 border-double border-black transition duration-150 hover:scale-110 dark:border-purple-600">
                 <Image
-                  width={400}
-                  height={400}
+                  width={350}
+                  height={350}
                   src={web3}
                   alt=""
                   className="image-class min-h-[100%] min-w-[100%]  object-cover"
@@ -52,13 +64,17 @@ const CarouselText = () => {
 
           <div
             id="images-wrapper"
-            className="absolute flex flex-row gap-8 pr-8"
+            className="absolute flex flex-row gap-8 py-4 pr-8"
           >
-            <a href="https://websitepractice4.netlify.app/" target="_blank" rel="noreferrer">
-              <div className="image-container flex h-[400px] w-[400px] cursor-pointer items-center justify-center overflow-hidden rounded-lg border-4 border-double border-black transition duration-150 hover:scale-110 dark:border-purple-600">
+            <a
+              href="https://websitepractice4.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="image-container flex h-[350px] w-[350px] cursor-pointer items-center justify-center overflow-hidden rounded-lg border-4 border-double border-black transition duration-150 hover:scale-110 dark:border-purple-600">
                 <Image
-                  width={400}
-                  height={400}
+                  width={350}
+                  height={350}
                   src={web4}
                   alt=""
                   className="image-class min-h-[100%] min-w-[100%]  object-cover"
@@ -70,10 +86,10 @@ const CarouselText = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="image-container flex h-[400px] w-[400px] cursor-pointer items-center justify-center overflow-hidden rounded-lg border-4 border-double border-black transition duration-150 hover:scale-110 dark:border-purple-600">
+              <div className="image-container flex h-[350px] w-[350px] cursor-pointer items-center justify-center overflow-hidden rounded-lg border-4 border-double border-black transition duration-150 hover:scale-110 dark:border-purple-600">
                 <Image
-                  width={400}
-                  height={400}
+                  width={350}
+                  height={350}
                   src={web5}
                   alt=""
                   className="image-class min-h-[100%] min-w-[100%]  object-cover"
@@ -85,10 +101,10 @@ const CarouselText = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="image-container flex h-[400px] w-[400px] cursor-pointer items-center justify-center overflow-hidden rounded-lg border-4 border-double border-black transition duration-150 hover:scale-110 dark:border-purple-600">
+              <div className="image-container flex h-[350px] w-[350px] cursor-pointer items-center justify-center overflow-hidden rounded-lg border-4 border-double border-black transition duration-150 hover:scale-110 dark:border-purple-600">
                 <Image
-                  width={400}
-                  height={400}
+                  width={350}
+                  height={350}
                   src={github}
                   alt=""
                   className="image-class min-h-[100%] min-w-[100%]  object-cover"

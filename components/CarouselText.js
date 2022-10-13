@@ -1,5 +1,4 @@
 import Image from "next/image";
-import img8 from "../public/unsplash_8.jpg";
 import web1 from "../public/web1.jpg";
 import web2 from "../public/web2.jpg";
 import web3 from "../public/web3.jpg";

@@ -16,7 +16,7 @@ const CarouselText = () => {
             id="images-wrapper"
             className="absolute flex flex-row gap-8 pr-8"
           >
-            <a href="https://websitepractice1.netlify.app/" target="_blank">
+            <a href="https://websitepractice1.netlify.app/" target="_blank" rel="noreferrer">
               <div className="image-container flex h-[400px] w-[400px] cursor-pointer items-center justify-center overflow-hidden rounded-lg border-4 border-double border-black transition duration-150 hover:scale-110 dark:border-purple-600">
                 <Image
                   width={400}
@@ -27,7 +27,7 @@ const CarouselText = () => {
                 />
               </div>
             </a>
-            <a href="https://websitepractice2.netlify.app/" target="_blank">
+            <a href="https://websitepractice2.netlify.app/" target="_blank" rel="noreferrer">
               <div className="image-container flex h-[400px] w-[400px] cursor-pointer items-center justify-center overflow-hidden rounded-lg border-4 border-double border-black transition duration-150 hover:scale-110 dark:border-purple-600">
                 <Image
                   width={400}
@@ -38,7 +38,7 @@ const CarouselText = () => {
                 />
               </div>
             </a>
-            <a href="https://websitepractice3.netlify.app/" target="_blank">
+            <a href="https://websitepractice3.netlify.app/" target="_blank" rel="noreferrer">
               <div className="image-container flex h-[400px] w-[400px] cursor-pointer items-center justify-center overflow-hidden rounded-lg border-4 border-double border-black transition duration-150 hover:scale-110 dark:border-purple-600">
                 <Image
                   width={400}
@@ -55,7 +55,7 @@ const CarouselText = () => {
             id="images-wrapper"
             className="absolute flex flex-row gap-8 pr-8"
           >
-            <a href="https://websitepractice4.netlify.app/" target="_blank">
+            <a href="https://websitepractice4.netlify.app/" target="_blank" rel="noreferrer">
               <div className="image-container flex h-[400px] w-[400px] cursor-pointer items-center justify-center overflow-hidden rounded-lg border-4 border-double border-black transition duration-150 hover:scale-110 dark:border-purple-600">
                 <Image
                   width={400}
@@ -69,6 +69,7 @@ const CarouselText = () => {
             <a
               href="https://cornonthecobcollection.netlify.app/"
               target="_blank"
+              rel="noreferrer"
             >
               <div className="image-container flex h-[400px] w-[400px] cursor-pointer items-center justify-center overflow-hidden rounded-lg border-4 border-double border-black transition duration-150 hover:scale-110 dark:border-purple-600">
                 <Image
@@ -83,6 +84,7 @@ const CarouselText = () => {
             <a
               href="https://github.com/hzlnutspread?tab=repositories"
               target="_blank"
+              rel="noreferrer"
             >
               <div className="image-container flex h-[400px] w-[400px] cursor-pointer items-center justify-center overflow-hidden rounded-lg border-4 border-double border-black transition duration-150 hover:scale-110 dark:border-purple-600">
                 <Image

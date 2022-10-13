@@ -1,10 +1,10 @@
 import Image from "next/image";
-import web1 from "../public/web1.jpg";
-import web2 from "../public/web2.jpg";
-import web3 from "../public/web3.jpg";
-import web4 from "../public/web4.jpg";
-import web5 from "../public/web5.jpg";
-import github from "../public/github.jpg";
+import web1 from "../public/web1.JPG";
+import web2 from "../public/web2.JPG";
+import web3 from "../public/web3.JPG";
+import web4 from "../public/web4.JPG";
+import web5 from "../public/web5.JPG";
+import github from "../public/github.JPG";
 
 const CarouselText = () => {
   return (
